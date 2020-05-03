@@ -61,12 +61,12 @@ const Home = (props) => {
       <Container className="hero-form__wrap">
         <img
           className="illustration-left"
-          src="/images/illustration-left.svg"
+          src="images/illustration-left.svg"
           alt=""
         />
         <img
           className="illustration-right"
-          src="/images/illustration-right.svg"
+          src="images/illustration-right.svg"
           alt=""
         />
         <Row className="justify-content-center">
@@ -98,7 +98,7 @@ const Home = (props) => {
           </Col>
           <Col lg="7">
             <div className="slider__hero">
-              <img src="/images/dashboard.png" alt="" />
+              <img src="images/dashboard.png" alt="" />
             </div>
           </Col>
         </Row>
@@ -115,7 +115,7 @@ const Home = (props) => {
           </Col>
           {features.map((item, index) => (
             <Col key={index} lg="4" className="features__card">
-              <img src={`/images/${item.imgSrc}.svg`} alt="" />
+              <img src={`images/${item.imgSrc}.svg`} alt="" />
               <h6 className="sm-title">{item.label}</h6>
               <p>{item.text}</p>
             </Col>
@@ -134,7 +134,7 @@ const Home = (props) => {
           </Col>
           {plans.map((item, index) => (
             <Col key={index} lg="3" className="plans__card">
-              <img src={`/images/${item.imgSrc}.svg`} alt="" />
+              <img src={`images/${item.imgSrc}.svg`} alt="" />
               <div className="plans__card__content">
                 <h6 className="sm-title">{item.label}</h6>
                 <p>{item.text}</p>

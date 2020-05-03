@@ -1,13 +1,9 @@
 import React from "react";
 import {
   NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
   Container,
   Row,
   Col,
-  Button,
 } from "reactstrap";
 import "./Footer.scss";
 
@@ -47,11 +43,11 @@ const Footer = () => {
           <Col lg="2">
             <div className="social">
               <div className="social-inner">
-                <img src="/images/facebook.svg" alt="" />
-                <img src="/images/twitter.svg" alt="" />
-                <img src="/images/youtube-play.svg" alt="" />
-                <img src="/images/mail.svg" alt="" />
-                <img src="/images/instagram.svg" alt="" />
+                <img src="images/facebook.svg" alt="" />
+                <img src="images/twitter.svg" alt="" />
+                <img src="images/youtube-play.svg" alt="" />
+                <img src="images/mail.svg" alt="" />
+                <img src="images/instagram.svg" alt="" />
               </div>
               <p>Copyright 2019</p>
             </div>
