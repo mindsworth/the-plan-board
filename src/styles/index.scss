@@ -1,7 +1,9 @@
 :root {
   --brand: #ef6e76;
+  --bg-color: #faf8f5;
   --navy-blue: #154593;
   --gray: #eaeaea;
+  --text-color: #6c757d;
 }
 
 body {
@@ -11,9 +13,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-color);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+button {
+  text-transform: uppercase;
+  padding: 1rem 3rem;
+}
+
+.xl-title {
+  font-size: 4rem;
+  font-weight: normal;
+}
+
+.lg-title {
+  font-size: 2.5rem;
+  font-weight: normal;
+  display: inline-block;
+}
+
+.md-title {
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+.sm-title {
+  font-size: 1.2rem;
+  font-weight: bold;
 }

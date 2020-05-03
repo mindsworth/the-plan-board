@@ -34,17 +34,21 @@
           width: 100%;
           justify-content: center;
           align-items: center;
+          @media (max-width: 768px) {
+            margin-top: 2em;
+          }
 
           button {
             padding: 0.5rem 3rem;
             margin: 0 0.5em;
+            font-weight: bold;
+            color: var(--text-color);
           }
 
           .btn-sign-up {
             border: 1px solid var(--navy-blue);
             background-color: var(--navy-blue);
             color: var(--white);
-            font-weight: bold;
           }
 
           @media (min-width: 769px) {

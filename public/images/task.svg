@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="346" height="252" viewBox="0 0 346 252">
+    <defs>
+        <rect id="b" width="229" height="152" x="43" y="37" rx="5"/>
+        <filter id="a" width="165.9%" height="199.3%" x="-33%" y="-49%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="25"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0759396853 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(7 12)">
+        <rect width="58" height="48" fill="#5ECC95" opacity=".098" rx="5"/>
+        <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+        <use fill="#FFF" xlink:href="#b"/>
+        <path fill="#87C6CC" d="M77 59h21v19H77z" opacity=".162"/>
+        <path fill="#87C6CC" d="M72 58h1v110h-1zM102 58h1v110h-1zM132 58h1v110h-1zM162 58h1v110h-1zM192 58h1v110h-1zM222 58h1v110h-1zM252 58h1v110h-1z" opacity=".257"/>
+        <path fill="#87C6CC" d="M80 88h165v19H80zM62 118h145v19H62zM87 148h71v19H87z" opacity=".162"/>
+        <rect width="92" height="48" x="247" y="11" fill="#144491" rx="5"/>
+        <text fill="#FFF" font-family="ProximaNova-Bold, Proxima Nova" font-size="16" font-weight="bold">
+            <tspan x="263" y="40">Progress</tspan>
+        </text>
+        <rect width="101" height="48" x="203" y="154" fill="#F2893C" rx="5"/>
+        <text fill="#FFF" font-family="ProximaNova-Bold, Proxima Nova" font-size="16" font-weight="bold">
+            <tspan x="222" y="183">Calendar</tspan>
+        </text>
+        <g fill="#5ECC95">
+            <path d="M42.56 14.716H35.86v-2.21c0-1.222-1-2.211-2.232-2.211h-8.93c-1.233 0-2.233.99-2.233 2.21v2.21h-6.698c-1.233 0-2.232.99-2.232 2.211v18.421c0 1.221 1 2.21 2.232 2.21H42.56c1.233 0 2.233-.989 2.233-2.21v-18.42c0-1.222-1-2.211-2.233-2.211zm-17.861-2.21h8.93v2.21h-8.93v-2.21zm17.86 4.42v5.534a1.118 1.118 0 0 0-.499.11 46.635 46.635 0 0 1-9.332 3.14 2.232 2.232 0 0 0-2.076-1.415h-2.977a2.231 2.231 0 0 0-2.098 1.473 41.455 41.455 0 0 1-9.437-3.197 1.11 1.11 0 0 0-.409-.111v-5.534H42.56zm-11.907 9.58v2.21h-2.977v-2.21h2.977zm-14.884 8.841v-10.47a44.514 44.514 0 0 0 9.675 3.154v.685c0 1.22 1 2.21 2.232 2.21h2.977c1.233 0 2.233-.99 2.233-2.21v-.796a39.332 39.332 0 0 0 9.674-3.213v10.64H15.77z"/>
+        </g>
+    </g>
+</svg>

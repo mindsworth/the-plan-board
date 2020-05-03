@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="366" height="256" viewBox="0 0 366 256">
+    <defs>
+        <rect id="b" width="136" height="136" x="29" y="4" rx="5"/>
+        <filter id="a" width="211%" height="211%" x="-55.5%" y="-54.8%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="25"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0759396853 0"/>
+        </filter>
+        <rect id="c" width="136" height="136" rx="5"/>
+        <filter id="d" width="211%" height="211%" x="-55.5%" y="-54.8%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="25"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0759396853 0"/>
+        </filter>
+        <path id="g" d="M24.236 11.33h.326a3.26 3.26 0 0 0 .325-6.511h-.325a3.256 3.256 0 0 0-2.605 5.209l-4.239 6.004a3.256 3.256 0 0 0-.651-.144h-.326c-.704 0-1.39.229-1.953.652l-4.005-2.86a3.256 3.256 0 0 0-2.852-3.906h-.325a3.256 3.256 0 0 0-2.866 4.793L2.416 17.36V1.563a.977.977 0 1 0-1.954 0v25.07a.977.977 0 0 0 .984.976h25.07a.977.977 0 1 0 0-1.953H2.421v-5.249l3.731-4.48c.356.182.743.297 1.14.339h.326c.824 0 1.617-.311 2.22-.873l3.816 2.729c-.072.211-.122.43-.15.651a3.256 3.256 0 0 0 2.917 3.627h.326a3.256 3.256 0 0 0 2.605-5.21l4.239-6.003c.21.07.425.117.644.143zM7.62 14.345h-.13a1.304 1.304 0 1 1 .13-2.605h.13a1.304 1.304 0 1 1-.13 2.605zm16.93-7.56h.13a1.304 1.304 0 0 1-.13 2.605h-.13a1.304 1.304 0 0 1 .13-2.605zM16.735 20.46h-.13a1.304 1.304 0 0 1 .13-2.605h.13a1.304 1.304 0 0 1-.13 2.605z"/>
+        <filter id="f" width="430.6%" height="436.7%" x="-165.3%" y="-164.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="15"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.996078431 0 0 0 0 0.419607843 0 0 0 0 0.435294118 0 0 0 0.340827142 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(21 45)">
+        <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+        <use fill="#FFF" xlink:href="#b"/>
+        <path fill="#87C6CC" d="M50 95h6v30h-6zM60 25h6v100h-6zM90 65h6v60h-6zM100 55h6v70h-6zM130 35h6v90h-6zM140 105h6v20h-6z" opacity=".162"/>
+        <rect width="50" height="48" y="125" fill="#5ECC95" rx="5"/>
+        <g transform="translate(121 24)">
+            <mask id="e" fill="#fff">
+                <use xlink:href="#c"/>
+            </mask>
+            <use fill="#000" filter="url(#d)" xlink:href="#c"/>
+            <use fill="#FFF" xlink:href="#c"/>
+            <path stroke="#E2E8F2" stroke-width="3" d="M-18 91C-.667 71 17.833 61 37.5 61 67 61 96.79 87.586 122 87.586c16.807 0 26.807-6.529 30-19.586" mask="url(#e)" opacity=".515"/>
+            <path stroke="#E2E8F2" stroke-width="3" d="M-18 71C-.667 51 17.833 41 37.5 41c29.5 0 54.29 68.61 79.5 68.61 16.807 0 28.474-20.537 35-61.61" mask="url(#e)"/>
+            <circle cx="35" cy="40" r="4" fill="#E2E8F2" mask="url(#e)"/>
+        </g>
+        <g transform="translate(11 135)">
+            <use fill="#000" filter="url(#f)" xlink:href="#g"/>
+            <use fill="#FFF" xlink:href="#g"/>
+        </g>
+        <rect width="136" height="48" x="209" fill="#144491" rx="5"/>
+        <text fill="#FFF" font-family="ProximaNova-Bold, Proxima Nova" font-size="16" font-weight="bold">
+            <tspan x="228" y="29">Lorem ipsum </tspan>
+        </text>
+    </g>
+</svg>
