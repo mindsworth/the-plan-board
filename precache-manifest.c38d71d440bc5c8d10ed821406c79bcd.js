@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "abd9adc960b734602bb10c3e99478e20",
+    "revision": "1f5ff7beea8c8e46746e8c8d4962b7c3",
     "url": "/the-plan-board/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the-plan-board/static/css/2.412fd7e3.chunk.css"
   },
   {
-    "revision": "79b6a4607c6d924789bd",
+    "revision": "008c95dcf007b965e399",
     "url": "/the-plan-board/static/css/main.34a03a39.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the-plan-board/static/js/2.ecf8aae8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "79b6a4607c6d924789bd",
-    "url": "/the-plan-board/static/js/main.475b61c1.chunk.js"
+    "revision": "008c95dcf007b965e399",
+    "url": "/the-plan-board/static/js/main.87e823ed.chunk.js"
   },
   {
     "revision": "c993214796e4198357d9",
