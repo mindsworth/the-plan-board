@@ -15,11 +15,13 @@ const Footer = () => {
   return (
     <footer className="footer">
       <Container>
-        <Row>
-          <Col className="footer-inner">
+        <Row className="align-items-center">
+          <Col lg="3">
             <NavbarBrand href="/">
               the<span>plan</span>board
             </NavbarBrand>
+          </Col>
+          <Col lg="7">
             <div className="links">
               <ul>
                 <h6>Dashboard</h6>
@@ -41,6 +43,8 @@ const Footer = () => {
                 <li>Invoice</li>
               </ul>
             </div>
+          </Col>
+          <Col lg="2">
             <div className="social">
               <div className="social-inner">
                 <img src="/images/facebook.svg" alt="" />
