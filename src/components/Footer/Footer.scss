@@ -1,0 +1,46 @@
+.footer {
+  padding-bottom: 3em;
+
+  &-inner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    .navbar-brand {
+      font-size: 1.875rem;
+      font-weight: bold;
+      color: var(--gray-dark);
+
+      span {
+        color: var(--brand);
+      }
+
+      @media (max-width: 320px) {
+        font-size: 1.5rem;
+      }
+    }
+
+    .links {
+      flex-grow: 2;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 8em;
+
+      ul {
+        list-style: none;
+
+        h6 {
+          font-weight: bold;
+        }
+      }
+    }
+
+    .social {
+      &-inner {
+        img {
+          margin-right: 1em;
+        }
+      }
+    }
+  }
+}

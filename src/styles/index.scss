@@ -52,3 +52,9 @@ button {
   font-size: 1.2rem;
   font-weight: bold;
 }
+
+.custom-btn {
+  border: 0;
+  padding: 1rem 3rem;
+  background-image: linear-gradient(100deg, #ff9676, #f17f60 26%, #ef6e76 99%);
+}

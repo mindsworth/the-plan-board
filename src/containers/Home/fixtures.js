@@ -27,3 +27,26 @@ export const features = [
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
   },
 ];
+
+export const plans = [
+  {
+    label: "Manage & track clients",
+    imgSrc: "plan-icon1",
+    text: "Lorem ipsum dolor sit amet, consectetur.",
+  },
+  {
+    label: "Manage & monitor agents",
+    imgSrc: "plan-icon2",
+    text: "Lorem ipsum dolor sit amet, consectetur .",
+  },
+  {
+    label: "Client & Agent collaborating test",
+    imgSrc: "plan-icon3",
+    text: "Dolor sit amet, consectetur adipiscing.",
+  },
+  {
+    label: "Invoicing and billing",
+    imgSrc: "plan-icon4",
+    text: "Lorem ipsum dolor sit amet, consectetur.",
+  },
+];
