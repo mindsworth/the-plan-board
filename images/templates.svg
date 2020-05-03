@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="376" height="307" viewBox="0 0 376 307">
+    <defs>
+        <rect id="b" width="229" height="136" x="97" y="41" rx="5"/>
+        <filter id="a" width="165.9%" height="211%" x="-33%" y="-54.8%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="25"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0759396853 0"/>
+        </filter>
+        <rect id="d" width="229" height="207" x="82" y="14" rx="5"/>
+        <filter id="c" width="165.9%" height="172.9%" x="-33%" y="-36%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="25"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0759396853 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(0 35)">
+        <g opacity=".662">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#FFF" xlink:href="#b"/>
+        </g>
+        <use fill="#000" filter="url(#c)" xlink:href="#d"/>
+        <use fill="#FFF" xlink:href="#d"/>
+        <path fill="#87C6CC" d="M97 32h77v61H97zM192 32h101v13H192zM97 132h194v13H97zM97 176h194v13H97zM97 154h150v13H97zM97 110h150v13H97zM192 53h81v13h-81zM192 74h51v13h-51z" opacity=".162"/>
+        <rect width="50" height="48" x="286" y="177" fill="#87C6CC" rx="5"/>
+        <rect width="136" height="48" fill="#2DA3FF" rx="5"/>
+        <text fill="#FFF" font-family="ProximaNova-Bold, Proxima Nova" font-size="16" font-weight="bold">
+            <tspan x="19" y="29">Lorem ipsum </tspan>
+        </text>
+        <g fill="#FFF">
+            <path d="M322.24 187.518s-22.417-.573-22.772 0v25.138c0 1.079.874 1.953 1.952 1.953h20.82a1.953 1.953 0 0 0 1.953-1.953v-23.442c0-1.079-.874-1.696-1.952-1.696zm0 25.138h-20.82V195.14h.04l.038-.04v-5.82l5.778.038.04-.039v-.039h14.899l.026 23.416z"/>
+            <path d="M318.337 202.237h-13.013a.976.976 0 0 0 0 1.954h13.013a.976.976 0 0 0 0-1.954zM316.385 206.795h-11.06a.976.976 0 0 0 0 1.954h11.06a.976.976 0 0 0 0-1.954zM307.276 199.633h3.904a1.953 1.953 0 0 0 1.952-1.954v-3.907a1.953 1.953 0 0 0-1.952-1.953h-3.904a1.953 1.953 0 0 0-1.952 1.953v3.907c0 1.079.874 1.954 1.952 1.954zm0-5.86h3.904v3.906h-3.904v-3.907z"/>
+        </g>
+    </g>
+</svg>
